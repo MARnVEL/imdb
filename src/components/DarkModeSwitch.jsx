@@ -27,10 +27,12 @@ export default function DarkModeSwitch() {
                     ? <MdLightMode 
                         className="text-xl cursor-pointer hover:text-amber-500" 
                         onClick={ () => setTheme("light") }
+                        title="Change to light mode"
                         /> 
                     : <BsFillMoonFill 
                         className="text-xl cursor-pointer hover:text-amber-500" 
                         onClick={ () => setTheme("dark") }
+                        title="Change to dark mode"
                         />
                 )
             }
