@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import { Providers } from './Providers'
 import './globals.css'
+import Navbar from '@/components/Navbar'
 
 export default function RootLayout({ children }) {
   return (
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           <Header/>
 
           {/* Navbar */}
+          <Navbar />
 
           {/* SearchBox */}
 
