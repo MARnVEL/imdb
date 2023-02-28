@@ -7,7 +7,7 @@ import { FiThumbsUp } from "react-icons/fi";
 export default function Card({ result }) {
     return (
         <div
-            className="cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-red-900 sm:m-2 transition-shadow duration-200 group"
+            className="cursor-pointer p-3 hover:shadow-slate-400 shadow-md border border-red-900 m-2 sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-red-900 sm:m-2 transition-shadow duration-200 group"
         >
             <Link
                 href={`/movie/${result.id}/`}
@@ -19,7 +19,7 @@ export default function Card({ result }) {
                     width={500}
                     height={300}
                     alt="Main picture of the movie. Not available."
-                    className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+                    className="rounded-t-lg group-hover:opacity-80 transition-opacity duration-200 mx-auto justify-center"
                     style={{
                         maxWidth: "100%",
                         height: "auto"
