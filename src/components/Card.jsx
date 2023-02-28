@@ -25,7 +25,7 @@ export default function Card({ result }) {
                         height: "auto"
                     }}
                     placeholder="blur"
-                    blurDataURL="/sipinner.svg"
+                    blurDataURL="/spinner.svg"
                 ></Image>
                 <div className="p-2">
                     <p className="line-clamp-3 text-md">
