@@ -1,4 +1,4 @@
-import Results from "@/components/Results";
+// import Results from "@/components/Results";
 
 // export const dynamic = "force-dynamic"; // this is the fix
 // Fix the problem for "search params object is empty in production with next 13 app dir"
