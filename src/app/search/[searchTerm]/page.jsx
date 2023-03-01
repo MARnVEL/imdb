@@ -1,13 +1,11 @@
-
-// This page is server side because we don't have any useEffect or any other hook or any state.
-
 import Results from "@/components/Results";
 
 const API_KEY = process.env.API_KEY1;
 
+// This page is server side because we don't have any useEffect or any other hook or any state.
+
 export default async function SearchPage({ params }) {
-    const searchTerm = params.searchTerm;
-    const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${searchTerm}&language=es&include_adult=true`);
+    const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${params.searchTerm}&language=es&include_adult=false`);
 
     if(!res.ok) {
         throw new Error("Error fetching data!");
