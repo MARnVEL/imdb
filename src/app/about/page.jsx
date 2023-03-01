@@ -13,7 +13,7 @@ export default function About() {
             </p>
 
             <p>
-                Soy MarnVel, un desarrollador web y estudiante de ingeniería de 30 años de la provincia de Formosa, Argentina. Me considero un apasionado por la tecnología y su implementación en la creación de riqueza. Actualmente soy un alumno de la carrera "Tecnicatura Superior en Desarrollo de Software Multiplataforma" que se dicta en el  Instituto Politécnico de Formosa.
+                Soy MarnVel, un desarrollador web y estudiante de ingeniería de 30 años de la provincia de Formosa, Argentina. Me considero un apasionado por la tecnología y su implementación en la creación de riqueza. Actualmente soy un alumno de la carrera Tecnicatura Superior en Desarrollo de Software Multiplataforma que se dicta en el  Instituto Politécnico de Formosa.
             </p>
 
             <p>
