@@ -1,11 +1,12 @@
 
-import Header from '@/components/Header'
-import Navbar from '@/components/Navbar'
-import SearchBox from '@/components/SearchBox'
+import Header from '@/components/Header';
+import Navbar from '@/components/Navbar';
+import SearchBox from '@/components/SearchBox';
 
-import { Providers } from './Providers'
+import './globals.css';
+import Providers from './Providers';
+// import { Providers } from './Providers';
 
-import './globals.css'
 
 export default function RootLayout({ children }) {
   return (
@@ -32,5 +33,5 @@ export default function RootLayout({ children }) {
 
       </body>
     </html>
-  )
+  );
 }

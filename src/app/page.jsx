@@ -1,8 +1,9 @@
-import Results from "@/components/Results";
 
 export const dynamic = "force-dynamic"; // this is the fix
 // Fix the problem for "search params object is empty in production with next 13 app dir"
 // for more info "https://github.com/vercel/next.js/issues/43077"
+
+import Results from "@/components/Results";
 
 const API_KEY = process.env.API_KEY1;
 // console.log(API_KEY)
@@ -14,13 +15,10 @@ const API_KEY = process.env.API_KEY1;
 export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
 
-  const res = await fetch(
-    `
-    https://api.themoviedb.org/3/${
+  const res = await fetch(`https://api.themoviedb.org/3/${
       genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
-    }?api_key=${API_KEY}&language=es&page=1
-    `,
-    { next: { revalidate: 18000 } }
+    }?api_key=${API_KEY}&language=es&page=1`,
+    { next: { revalidate: 10000 } }
   );
 
   if (!res.ok) {

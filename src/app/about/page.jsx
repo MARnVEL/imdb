@@ -2,27 +2,22 @@ export default function About() {
     return (
         <div className="max-w-6xl mx-auto space-y-4 p-4">
             <h1 className="text-2xl font-medium text-amber-600">
-                About
+                Sobre nosotros
             </h1>
             <hr />
             <p>
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolore quibusdam consequatur quas consectetur, aliquid consequuntur illo facere! Nobis dolor, excepturi reiciendis odit est cupiditate repellendus labore iste sapiente accusamus?
-                Quo, officiis obcaecati? Facere, voluptatem. Soluta ut eveniet provident quo explicabo repellendus ad voluptate quisquam quos sit. Dignissimos vitae ex error laudantium, dicta vel autem corrupti cumque nemo deserunt aperiam?
+                Hola! Este es un sitio web estrictamente para fines educactivos y para mostrar mi trabajo en desarrollo web, el cual vengo realizando desde hace un año.
+                En el sitio se pueden consultar sinopsis e información básica sobre películas alojadas en la base de datos del sitio web: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">https://www.themoviedb.org/</a>
 
             </p>
 
             <p>
-                Iure accusamus harum ipsam adipisci reprehenderit dolor eaque facilis, sunt, possimus velit, facere nobis ducimus nesciunt consectetur? Tempore tempora nihil doloribus, veniam laborum amet, quo aut veritatis, ea ad alias.
-                Maxime dolor autem illum cum sunt assumenda architecto ullam asperiores enim, voluptate necessitatibus provident quibusdam quisquam exercitationem quae praesentium possimus soluta molestias vero nulla, doloribus blanditiis minus! Eius, aliquam ad.
-                Cupiditate quibusdam reprehenderit officia accusantium excepturi quisquam maxime fugiat tempora voluptas architecto, quam dolor tenetur at magnam quaerat asperiores laboriosam eum odit sapiente doloribus possimus? Debitis molestias exercitationem ullam sed!
+                Soy MarnVel, un desarrollador web y estudiante de ingeniería de 30 años de la provincia de Formosa, Argentina. Me considero un apasionado por la tecnología y su implementación en la creación de riqueza. Actualmente soy un alumno de la carrera "Tecnicatura Superior en Desarrollo de Software Multiplataforma" que se dicta en el  Instituto Politécnico de Formosa.
             </p>
 
             <p>
-                Amet officia iure ipsum inventore eum! Totam maxime modi illum, ipsum repellat iusto assumenda, perspiciatis blanditiis veritatis labore saepe nihil esse, corporis nesciunt deserunt. Vitae iusto in error laboriosam corporis?
-                Consectetur impedit magnam neque eligendi, dolorum totam voluptates vel ratione sapiente. Iure unde officia, consequatur ducimus, ea cumque deleniti optio possimus sequi mollitia, vero dolore asperiores ratione laboriosam. Consequuntur, maxime.
-                Repudiandae, earum exercitationem iure optio accusamus soluta labore quos illum velit adipisci voluptatibus vitae animi? Rem praesentium at adipisci, impedit architecto beatae harum dolores distinctio? Neque saepe iste reprehenderit dolores.
-                Voluptatum cupiditate deserunt exercitationem beatae, similique dolor ea illum sint deleniti. Quis, cum numquam similique deleniti sit ducimus quibusdam. Ipsa repellendus voluptate magni aperiam error odio reprehenderit quae aspernatur totam?
+                Contacto: 🚨.... En construcción .... 🚨
             </p>
 
         </div>
