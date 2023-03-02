@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const API_KEY = process.env.API_KEY1;
+const API_KEY = process.env.API_KEY;
 
 /**
  * @param {movieId} movieId 

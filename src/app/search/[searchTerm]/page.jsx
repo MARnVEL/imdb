@@ -1,6 +1,6 @@
 import Results from "@/components/Results";
 
-const API_KEY = process.env.API_KEY1;
+const API_KEY = process.env.API_KEY;
 
 // This page is server side because we don't have any useEffect or any other hook or any state.
 

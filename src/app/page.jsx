@@ -5,7 +5,7 @@ export const dynamic = "force-dynamic"; // this is the fix
 
 import Results from "@/components/Results";
 
-const API_KEY = process.env.API_KEY1;
+const API_KEY = process.env.API_KEY;
 // console.log(API_KEY)
 /**
  * Para hacer el fetching no usamos ningún hook porque esto sería usar el "client side".
